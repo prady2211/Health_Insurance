@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  web:
+    image: "prady2211/health_insurance_jenkins:latest"
+    ports:
+      - "8501:8501"
