@@ -17,7 +17,7 @@ st.sidebar.markdown('Through this legal contract, the policy holder gets privile
 col1, col2 = st.columns(2)
 
 with col1:
- st.subheader('Health Insurance Premium')
+ st.subheader('Health Insurance Premium v1')
 
  age=st.number_input('Age in Years',step=1,min_value=18)
 
